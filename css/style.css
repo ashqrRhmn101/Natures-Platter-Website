@@ -1,3 +1,56 @@
-body{
-    font-family: 'Sora', sans-serif ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Sora", sans-serif;
+}
+
+/* Shared style */
+
+:root {
+  /* colors */
+  --header-bg: linear-gradient(0deg, rgb(255, 255, 255), rgb(239, 235, 227));
+  --card-bg: ;
+  --primary-color: #179800;
+  --secondary-color: #efebe3;
+  --text-color: #111111;
+
+  /* font size */
+  --fs-header: 55px;
+  --fs-title: 36px;
+  --fs-subtitle: 24px;
+  --fs-p: 20px;
+
+  /* font width */
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+}
+/* container */
+.container {
+  /* width: 88%; */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.btn {
+  color: #ffff;
+  font-size: var(--fs-p);
+  font-weight: var(--fw-normal);
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+.common-p {
+  color: var(--text-color);
+  font-size: var(--fs-p);
+  font-weight: var(--fw-normal);
 }
