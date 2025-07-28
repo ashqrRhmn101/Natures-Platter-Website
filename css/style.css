@@ -87,13 +87,15 @@ li {
 /* Header & Navbar style */
 header {
   background: var(--header-bg);
-  /* margin-bottom: 100px; */
 }
 .navbar {
   padding-top: 25px;
   margin-bottom: 90px;
   justify-content: space-between;
   align-items: center;
+}
+.mobile-img {
+  display: none;
 }
 .nav-menu {
   margin-left: 200px;
@@ -125,6 +127,10 @@ header {
   background-color: var(--primary-color);
   border: none;
 }
+.fa-bars {
+  display: none;
+}
+
 /* freshness-section */
 .freshness-section {
   max-width: 820px;
@@ -164,20 +170,20 @@ header {
   text-align: center;
   border-radius: 16px;
 }
-.services-card img{
-    background-color: white;
-    margin: 30px;
-    padding: 25px;
-    border-radius: 100%;
+.services-card img {
+  background-color: white;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 100%;
 }
-.service-subtitle{
-    font-size: var(--fs-subtitle);
-    font-weight: var(--fw-semibold);
+.service-subtitle {
+  font-size: var(--fs-subtitle);
+  font-weight: var(--fw-semibold);
 }
-.service-description{
-    margin: 20px;
-    opacity: 0.7;
-    color: var(--text-color);
-    font-size: var(--fs-p);
-    font-weight: var(--fw-normal);
+.service-description {
+  margin: 20px;
+  opacity: 0.7;
+  color: var(--text-color);
+  font-size: var(--fs-p);
+  font-weight: var(--fw-normal);
 }

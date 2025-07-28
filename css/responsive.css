@@ -1,0 +1,41 @@
+/* =============
+Media Query > responsive
+ mobile Device 
+ =================*/
+
+@media (max-width: 768px) {
+  .container {
+    /* width: 90%; */
+  }
+  /* navbar */
+  .nav-menu,
+  .search {
+    display: none;
+  }
+  .buttons{
+    display: none;
+  }
+  .large-img{
+    display: none;
+  }
+  .mobile-img {
+  display: block;
+}
+  .fa-bars {
+  display: block;
+  font-size: var(--fs-subtitle);
+}
+  .freshness-title {
+    font-size: 2.1rem;
+  }
+  .freshness-image img {
+    width: 100%;
+  }
+  /* service */
+  .services-cards {
+    flex-direction: column;
+  }
+  .services {
+    margin: 90px auto;
+  }
+}
