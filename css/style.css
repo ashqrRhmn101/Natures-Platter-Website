@@ -11,7 +11,11 @@ body {
 
 :root {
   /* colors */
-  --header-bg: linear-gradient(to bottom, rgb(255, 255, 255), rgb(239, 235, 227));
+  --header-bg: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(239, 235, 227)
+  );
   --card-bg: ;
   --primary-color: #179800;
   --secondary-color: #efebe3;
@@ -81,9 +85,9 @@ li {
 }
 
 /* Header & Navbar style */
-header{
-    background: var(--header-bg);
-    /* margin-bottom: 100px; */
+header {
+  background: var(--header-bg);
+  /* margin-bottom: 100px; */
 }
 .navbar {
   padding-top: 25px;
@@ -91,8 +95,8 @@ header{
   justify-content: space-between;
   align-items: center;
 }
-.nav-menu{
-    margin-left: 200px;
+.nav-menu {
+  margin-left: 200px;
 }
 .nav-menu ul {
   gap: 30px;
@@ -109,10 +113,9 @@ header{
 } */
 .fa-magnifying-glass {
   padding: 0px 40px;
-  
 }
 .login {
-    /* margin-left: 12px; */
+  /* margin-left: 12px; */
   margin-right: 12px;
   color: var(--text-color);
   background-color: white;
@@ -123,21 +126,58 @@ header{
   border: none;
 }
 /* freshness-section */
-.freshness-section{
-    max-width: 820px;
-    margin: 0 auto;
-    text-align: center;
+.freshness-section {
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
 }
-.freshness-title{
-    text-align: center;
-    font-size: var(--fs-header);
-    padding: 20px 0;
+.freshness-title {
+  text-align: center;
+  font-size: var(--fs-header);
+  padding: 20px 0;
 }
-.freshness-title span{
-    color: var(--primary-color);
+.freshness-title span {
+  color: var(--primary-color);
 }
-.freshness-image img{
-    display: block;
-    margin-top: 30px;
-    max-width: 820px;
+.freshness-image img {
+  display: block;
+  margin-top: 30px;
+  max-width: 820px;
+}
+
+/* services style */
+.services {
+  margin: 140px auto;
+}
+.services-title {
+  color: var(--primary-color);
+  font-size: var(--fs-title);
+  font-weight: var(--fw-semibold);
+}
+.services-cards {
+  display: flex;
+  gap: 24px;
+}
+.services-card {
+  margin-top: 30px;
+  background-color: var(--secondary-color);
+  text-align: center;
+  border-radius: 16px;
+}
+.services-card img{
+    background-color: white;
+    margin: 30px;
+    padding: 25px;
+    border-radius: 100%;
+}
+.service-subtitle{
+    font-size: var(--fs-subtitle);
+    font-weight: var(--fw-semibold);
+}
+.service-description{
+    margin: 20px;
+    opacity: 0.7;
+    color: var(--text-color);
+    font-size: var(--fs-p);
+    font-weight: var(--fw-normal);
 }
