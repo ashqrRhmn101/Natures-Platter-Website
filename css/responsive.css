@@ -38,4 +38,29 @@ Media Query > responsive
   .services {
     margin: 90px auto;
   }
+  /* products-cards */
+  .products-cards{
+    grid-template-columns: 1fr;
+  }
+  .products-card {
+    width: 95%;
+  }
+  .popular-cards{
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    margin-left: 0px;
+    column-gap: 0px;
+  }
+  .popular-card{
+    width: 90%;
+    height: 95%;
+    padding: 10px;
+  }
+  .popular-card p {
+    font-weight: var(--fw-semibold);
+    font-size: 12px;
+}
+  .display-none{
+    display: none;
+  }
 }
