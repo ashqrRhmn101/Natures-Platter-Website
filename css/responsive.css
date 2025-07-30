@@ -63,4 +63,49 @@ Media Query > responsive
   .display-none{
     display: none;
   }
+  /* Arrival & Offers */
+  .arrival-offer{
+    margin: 50px auto;
+  }
+  .offer-cards{
+    flex-direction: column;
+  }
+  .offer-card1, .offer-card2{
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    /* text-align: right; */
+  }
+  .card-btn{
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 14px;
+  }
+  .off-p{
+    font-size: 20px;
+  }
+  .off-p span{
+    font-size: var(--fs-subtitle);
+  }
+  .offer-text{
+    padding: 0px;
+    /* background-color: brown; */
+    text-align: start;
+  }
+  .offer-text img{
+    padding: 0px;
+    width: 110px;
+    height: 40px;
+  }
+  .dawat-img{
+    width: 50%;
+    height: 50%;
+    padding: 0 0;
+  }
+  .offer-text2 img{
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+  }
 }
