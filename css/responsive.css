@@ -12,19 +12,19 @@ Media Query > responsive
   .search {
     display: none;
   }
-  .buttons{
+  .buttons {
     display: none;
   }
-  .large-img{
+  .large-img {
     display: none;
   }
   .mobile-img {
-  display: block;
-}
+    display: block;
+  }
   .fa-bars {
-  display: block;
-  font-size: var(--fs-subtitle);
-}
+    display: block;
+    font-size: var(--fs-subtitle);
+  }
   .freshness-title {
     font-size: 2.1rem;
   }
@@ -39,19 +39,19 @@ Media Query > responsive
     margin: 90px auto;
   }
   /* products-cards */
-  .products-cards{
+  .products-cards {
     grid-template-columns: 1fr;
   }
   .products-card {
     width: 95%;
   }
-  .popular-cards{
+  .popular-cards {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 30px;
     margin-left: 0px;
     column-gap: 0px;
   }
-  .popular-card{
+  .popular-card {
     width: 90%;
     height: 95%;
     padding: 10px;
@@ -59,53 +59,69 @@ Media Query > responsive
   .popular-card p {
     font-weight: var(--fw-semibold);
     font-size: 12px;
-}
-  .display-none{
+  }
+  .display-none {
     display: none;
   }
   /* Arrival & Offers */
-  .arrival-offer{
+  .arrival-offer {
     margin: 50px auto;
   }
-  .offer-cards{
+  .offer-cards {
     flex-direction: column;
   }
-  .offer-card1, .offer-card2{
+  .offer-card1,
+  .offer-card2 {
     margin-right: 0px;
     margin-bottom: 10px;
     padding-top: 10px;
     width: 100%;
     /* text-align: right; */
   }
-  .card-btn{
+  .card-btn {
     font-size: 12px;
     margin: 10px 0;
     padding: 14px;
   }
-  .off-p{
+  .off-p {
     font-size: 20px;
   }
-  .off-p span{
+  .off-p span {
     font-size: var(--fs-subtitle);
   }
-  .offer-text{
+  .offer-text {
     padding: 0px;
     /* background-color: brown; */
     text-align: start;
   }
-  .offer-text img{
+  .offer-text img {
     padding: 0px;
     width: 110px;
     height: 40px;
   }
-  .dawat-img{
+  .dawat-img {
     width: 50%;
     height: 50%;
     padding: 0 0;
   }
-  .offer-text2 img{
+  .offer-text2 img {
     padding: 0px;
     width: 70px;
     height: 70px;
+  }
+
+  /* footer-container */
+  .footer-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: start; */
+  }
+  .footer-menu li {
+    margin-top: 25px;
+    padding: 0px;
+  }
+  .footer-icon {
+    margin-top: 25px;
   }
 }

@@ -242,7 +242,7 @@ header {
   background-color: white;
   border-radius: 16px;
 }
-.popular-card p{
+.popular-card p {
   font-weight: var(--fw-semibold);
 }
 .popular-card img {
@@ -258,14 +258,14 @@ header {
 }
 
 /* offer-cards */
-.arrival-offer{
+.arrival-offer {
   margin: 130px auto;
 }
-.offer-cards{
+.offer-cards {
   margin: 45px 0;
 }
 
-.offer-card1{
+.offer-card1 {
   margin-right: 20px;
   padding-top: 30px;
   color: white;
@@ -273,18 +273,18 @@ header {
   width: 60%;
   border-radius: 16px;
 }
-.dawat-img{
+.dawat-img {
   /* width: 100%; */
   /* height: 100%; */
 }
-.offer-text{
+.offer-text {
   padding-left: 40px;
   text-align: center;
 }
-.card-btn{
+.card-btn {
   margin: 20px 0;
   padding: 20px 25px;
-  background-color: #63B76D;
+  background-color: #63b76d;
   color: #ffffff;
   border: none;
 }
@@ -292,21 +292,21 @@ header {
   color: #ffffff;
   font-size: var(--fs-subtitle);
 }
-.offer-text span{
+.offer-text span {
   font-size: var(--fs-title);
   font-weight: var(--fw-bold);
 }
-.offer-card1 img{
+.offer-card1 img {
   /* width: 100%; */
 }
 
 /* card 2 */
-.a-v{
+.a-v {
   font-size: var(--fs-title);
   font-weight: var(--fw-semibold);
   color: var(--primary-color);
 }
-.offer-card2{
+.offer-card2 {
   color: #ffffff;
   background-color: #102861;
   width: 40%;
@@ -315,26 +315,51 @@ header {
   background-repeat: no-repeat;
   background-position: 90%; */
 }
-.offer-text2{
+.offer-text2 {
   margin-top: 30px;
-  padding-left: 10px ;
+  padding-left: 10px;
 }
-.offer-card2 p ,img{
+.offer-card2 p,
+img {
   padding-left: 15px;
 }
-.gate-img{
+.gate-img {
   margin-top: 45px;
   padding: 20px;
 }
-.card-btn2{
+.card-btn2 {
   margin: 10px 10px;
   padding: 10px 20px;
-  background-color: #2A4D97;
+  background-color: #2a4d97;
   font-size: var(--fs-p);
   font-weight: var(--fw-medium);
   border: none;
 }
-.offer-text2 span{
+.offer-text2 span {
   font-size: var(--fs-subtitle);
   font-weight: var(--fw-bold);
+}
+
+/* footer-container */
+
+.footer-container {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 650px;
+}
+.footer-text {
+  color: var(--secondary-color);
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-logo-description {
+  color: white;
+  padding-top: 10px;
+  max-width: 400px;
+}
+.footer-menu li {
+  padding: 15px;
+}
+.footer-icon {
+  margin-top: 70px;
 }
